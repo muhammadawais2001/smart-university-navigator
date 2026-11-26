@@ -1,0 +1,7 @@
+# Minimal Supabase CLI config. Run `supabase init` to regenerate a full one if needed.
+project_id = "smart-university-navigator"
+[db]
+major_version = 15
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql"]
